@@ -1,0 +1,117 @@
+/* --------------P-U-P-L-I-C---------------- */
+:root {
+  --main-color: #ff206e;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "segoe ui light";
+}
+.text-mine {
+  color: #ff206e;
+}
+.bg-mine {
+  background-color: #ff206e;
+}
+
+/* --------------P-U-P-L-I-C---E-N-D--------------- */
+/* ------------------N-A-V-------------- */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255 / 98%);
+}
+/* ----------------N-A-V--E-N-D---------- */
+
+/* ----------------Home Start-------------- */
+header {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.icon {
+  margin: 0 5px;
+  width: 35px;
+  height: 35px;
+  font-size: 17px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+/* ----------------Home End-------------- */
+/* ----------------About Start-------------- */
+
+.about-title h2 {
+  font-size: 90px;
+  font-family: "Bebas Neue", cursive;
+  color: #f1f1f1;
+  letter-spacing: 15px;
+}
+.about-title h3 {
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 10px;
+}
+.about {
+  background-image: url(/images/light_dot.jpg);
+}
+/* ----------------About End-------------- */
+/* ---------------services start----------- */
+
+.services {
+  background-image: url(/images/dark_dot.jpg);
+}
+.services h2 {
+  color: #222;
+}
+.services h3 {
+  color: #f1f1f1;
+}
+
+.line-content {
+  height: 2px;
+  width: 25%;
+  margin: auto;
+  box-shadow: 1px 1px 15px 1px #ff206e;
+}
+
+/* ---------------services end----------- */
+/* ---------------tesimonial start----------- */
+.carousel-item img {
+  width: 80px;
+  transform: translateY(50%);
+  border: solid 3px rgb(227, 227, 227);
+}
+.client-feedback .box-line {
+  position: relative;
+}
+.client-feedback .box-line::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: var(--main-color);
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 1px 1px 15px 1px #ff206e;
+}
+.carousel-indicators [data-bs-target] {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-indent: 0;
+}
+
+/* ---------------tesimonial end----------- */
+
+/* ----------------career start----------- */
+/* ----------------career end----------- */
+
+/* ---------------contact-us-start------------- */
+
+section div.contact-us {
+  height: 55vh;
+  /* background-color: #7b68ee; */
+  background-image: linear-gradient(purple, blue);
+}
+section div.contact-us .send-button {
+  background-color: rgba(195, 0, 195, 0.747);
+}
+/* ---------------contact-us-end------------- */
