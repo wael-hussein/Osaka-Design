@@ -48,20 +48,27 @@ header {
   font-family: "Bebas Neue", cursive;
   letter-spacing: 10px;
 }
-.about {
-  background-image: url(/images/light_dot.jpg);
+#about {
+  background-image: url(../images/light_dot.jpg);
 }
 /* ----------------About End-------------- */
 /* ---------------services start----------- */
 
 .services {
-  background-image: url(/images/dark_dot.jpg);
+  background-image: url(../images/dark_dot.jpg);
 }
-.services h2 {
+.services .services-title h2 {
   color: #222;
+  font-size: 90px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 15px;
 }
-.services h3 {
+.services .services-title h3 {
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
   color: #f1f1f1;
+  letter-spacing: 10px;
+  /* z-index: -13; */
 }
 
 .line-content {
@@ -106,12 +113,12 @@ header {
 
 /* ---------------contact-us-start------------- */
 
-section div.contact-us {
+/* section div.contact-us {
   height: 55vh;
-  /* background-color: #7b68ee; */
+  background-color: #7b68ee; 
   background-image: linear-gradient(purple, blue);
 }
 section div.contact-us .send-button {
-  background-color: rgba(195, 0, 195, 0.747);
-}
+  background-color: rgba(195, 0, 195, 0.747); 
+} */
 /* ---------------contact-us-end------------- */
